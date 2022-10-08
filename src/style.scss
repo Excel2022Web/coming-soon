@@ -102,24 +102,24 @@ body {
     left: 0;
     z-index: 2;
 
-    font-family: "Ms Madi", cursive;
+    font-family: 'Poppins', sans-serif;
 
     width: 50%;
-    height: 40%;
-    background-color: $theme-color;
+    max-height: 40%;
+    background-color: transparent;
+    color: $theme-color;
 
     min-width: 520px;
 
     padding: 2rem;
     p {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     @media only screen and (max-width: 768px) {
         bottom: 70px;
         min-width: auto;
         width: inherit;
-        height: 80px;
         padding: 2rem 1rem;
 
         display: flex;
@@ -127,8 +127,8 @@ body {
         align-items: center;
 
         p {
-            font-size: 2rem;
-            text-align: justify;
+            font-size: 1.7rem;
+            text-align: center;
         }
     }
 }
