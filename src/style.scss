@@ -69,6 +69,9 @@ body {
         flex-direction: row;
         justify-content: space-evenly;
     }
+    @media only screen and (max-height: 440px) {
+        height: 50px;
+    }
 }
 
 #coming-soon {
@@ -102,6 +105,12 @@ body {
     @media only screen and (max-width: 576px) {
         p {
             font-size: 3rem;
+        }
+    }
+    @media only screen and (max-height: 440px) {
+        bottom: 35%;
+        p {
+            font-size: 2.5rem;
         }
     }
 }
@@ -142,6 +151,12 @@ body {
         }
     }
     @media only screen and (max-width: 576px) {
+        p {
+            font-size: 1.4rem;
+        }
+    }
+    @media only screen and (max-height: 440px) {
+        bottom: 30px;
         p {
             font-size: 1.4rem;
         }
