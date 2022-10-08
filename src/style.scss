@@ -1,6 +1,6 @@
 $theme-color: #2caec1;
-$theme-color-hover: #0c2f3a;
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&family=Sora:wght@800&display=swap');
+$theme-color-hover: #2ceeff;
+
 * {
     padding: 0;
     margin: 0;
@@ -64,7 +64,7 @@ body {
         z-index: 2;
         height: 70px;
         width: 100%;
-        bottom: 50px;
+        bottom: 0;
         top: initial;
         flex-direction: row;
         justify-content: space-evenly;
@@ -108,11 +108,11 @@ body {
 
 #tagline {
     position: absolute;
-    bottom: 120px;
+    bottom: 0;
     left: 0;
     z-index: 2;
 
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Baloo 2', cursive;
 
     width: 50%;
     max-height: 40%;
@@ -123,11 +123,11 @@ body {
 
     padding: 2rem;
     p {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     @media only screen and (max-width: 900px) {
-        bottom: 165px;
+        bottom: 70px;
         min-width: auto;
         width: inherit;
         padding: 2rem 1rem;
@@ -143,7 +143,7 @@ body {
     }
     @media only screen and (max-width: 576px) {
         p {
-            font-size: 1rem;
+            font-size: 1.4rem;
         }
     }
 }
