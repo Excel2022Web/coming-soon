@@ -1,12 +1,12 @@
 $theme-color: #2caec1;
-$theme-color-hover: #2cccff;
-
+$theme-color-hover: #0c2f3a;
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&family=Sora:wght@800&display=swap');
 * {
     padding: 0;
     margin: 0;
 }
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Sora', sans-serif;
     overflow: hidden;
 }
 
@@ -30,9 +30,13 @@ body {
     align-items: center;
     gap: 1rem;
 
+    
     #excel-logo {
         width: 100%;
     }
+    
+    
+   
 }
 
 #social-links {
@@ -56,11 +60,11 @@ body {
             color: $theme-color-hover;
         }
     }
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 820px) {
         z-index: 2;
         height: 70px;
         width: 100%;
-        bottom: 0;
+        bottom: 50px;
         top: initial;
         flex-direction: row;
         justify-content: space-evenly;
@@ -83,7 +87,7 @@ body {
         font-size: 3.5rem;
     }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 820px) {
         top: auto;
         bottom: 50%;
         height: 80px;
@@ -92,23 +96,23 @@ body {
         padding: 0;
         text-align: center;
         p {
-            font-size: 3rem;
+            font-size: 3.5rem;
         }
     }
     @media only screen and (max-width: 576px) {
         p {
-            font-size: 2.3rem;
+            font-size: 3rem;
         }
     }
 }
 
 #tagline {
     position: absolute;
-    bottom: 0;
+    bottom: 120px;
     left: 0;
     z-index: 2;
 
-    font-family: 'Poppins', sans-serif;
+    font-family: 'JetBrains Mono', monospace;
 
     width: 50%;
     max-height: 40%;
@@ -119,11 +123,11 @@ body {
 
     padding: 2rem;
     p {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
-    @media only screen and (max-width: 768px) {
-        bottom: 70px;
+    @media only screen and (max-width: 820px) {
+        bottom: 165px;
         min-width: auto;
         width: inherit;
         padding: 2rem 1rem;
@@ -139,7 +143,7 @@ body {
     }
     @media only screen and (max-width: 576px) {
         p {
-            font-size: 1.4rem;
+            font-size: 1rem;
         }
     }
 }
@@ -148,14 +152,12 @@ body {
     position: absolute;
     right: 0;
     top: 0;
-    height: 100%;
-    width: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    width: 100%;
     overflow: hidden;
-
     #black-filter {
         height: 100%;
         width: 100%;
