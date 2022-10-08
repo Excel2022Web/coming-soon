@@ -12,6 +12,7 @@ body {
 
 #container {
     height: 100vh;
+    background-color: #06243E;
 }
 
 #excel {
@@ -68,13 +69,13 @@ body {
 
 #coming-soon {
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 0;
     z-index: 1;
 
     color: white;
 
-    width: 30%;
+    width: 40%;
     min-width: 430px;
     padding: 2rem;
     p {
@@ -92,6 +93,11 @@ body {
         text-align: center;
         p {
             font-size: 3rem;
+        }
+    }
+    @media only screen and (max-width: 576px) {
+        p {
+            font-size: 2.3rem;
         }
     }
 }
@@ -131,6 +137,11 @@ body {
             text-align: center;
         }
     }
+    @media only screen and (max-width: 576px) {
+        p {
+            font-size: 1.4rem;
+        }
+    }
 }
 
 #aftermovie {
@@ -139,7 +150,6 @@ body {
     top: 0;
     height: 100%;
     width: 100%;
-    z-index: -1;
 
     display: flex;
     justify-content: center;
