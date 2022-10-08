@@ -6,7 +6,7 @@ $theme-color-hover: #2cccff;
     margin: 0;
 }
 body {
-    font-family: "Inconsolata", monospace;
+    font-family: 'Poppins', sans-serif;
     overflow: hidden;
 }
 
@@ -69,18 +69,18 @@ body {
 
 #coming-soon {
     position: absolute;
-    top: 25%;
+    top: 45%;
+    transform: translateY(-50%);
     left: 0;
+    right: 50%;
     z-index: 1;
 
     color: white;
 
-    width: 40%;
     min-width: 430px;
     padding: 2rem;
     p {
-        font-size: 4rem;
-        text-transform: uppercase;
+        font-size: 3.5rem;
     }
 
     @media only screen and (max-width: 768px) {
