@@ -166,4 +166,11 @@ body {
         bottom: 0;
         background-color: rgba(0, 0, 0, 0.7);
     }
+    video {
+        height: 100%;
+        @media (min-aspect-ratio: 16/9) {
+            height: auto;
+            width: 100%;
+        }
+    }
 }
